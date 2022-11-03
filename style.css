@@ -1,0 +1,89 @@
+html, body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+    margin: 0;
+    background-color: rgb(239, 240, 226);
+}
+
+.title, .footer {
+    background-color: rgb(147, 232, 253);
+    text-align: center;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+/*--------------------Title---------------------*/
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    padding: 60px;
+
+}
+
+/*--------------------layout--------------------*/
+
+.layout {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+/*-------------------Sidebar--------------------*/
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    background-color: rgb(148, 211, 148);
+}
+
+/*----------------profile picture----------------*/
+.avatar {
+    margin-top: -40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+/*-------------------about me--------------------*/
+.me-section {
+    columns: 400px;
+    margin: 20px;
+}
+
+.aboutme {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.aboutmemore {
+    font-size: 18px;
+    font-weight: 50;
+}
+
+/*---------------------beef----------------------*/
+.beef-section {
+    background-color: rgb(218, 152, 152);
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.beef {
+    font-size: 50px;
+    font-weight: 800;
+    margin: 15px;
+}
+
+
+/*--------------------footer---------------------*/
+
+.footer {
+    padding: 40px;
+}
