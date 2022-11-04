@@ -27,7 +27,7 @@ html, body {
 
 .layout {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 
 }
 
@@ -39,6 +39,7 @@ html, body {
     display: flex;
     flex-direction: column;
     margin-left: 40px;
+    margin-right: 40px;
     background-color: rgb(148, 211, 148);
 }
 
@@ -73,12 +74,29 @@ html, body {
     background-color: rgb(218, 152, 152);
     margin-top: 40px;
     margin-right: 20px;
+    flex-grow: 2;
 }
 
 .beef {
     font-size: 50px;
     font-weight: 800;
     margin: 15px;
+}
+
+.container {
+
+}
+
+.cards {
+    font-size: 35px;
+    background-color: rgb(255, 255, 182);
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    /*position: relative;
+    display: inline-block;*/
+    
+
 }
 
 
