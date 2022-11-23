@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Irish Learning Journey(New Title Soon</title>
     <link rel="stylesheet" href="style.css">
+    <script def src="script.js"></script>
 </head>
 <body>
-    <div class="title">MY IRISH LEARNING JOURNEY</div>
+    <div class="title">MY IRISH LEARNING JOURNAL</div>
 
     <div class="layout">
         <div class="sidebar">
@@ -26,7 +27,18 @@
             <div class="beef">Today I Learned</div>
             <!--This place is reserved for "CARDS", every card is clickable and bring users to that article-->
             <div class="cards-container">
-                <div class="cards">card one</div>
+                <div class="cards">
+                    <button data-modal-target="#modal">card one</button>
+                    <div class="modal" id="modal">
+                        <div class="modal-header">
+                            <div class="title">About Me And Why I love The Irish Language</div>
+                            <button data-close-button class="close-button">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            The first time Irish language really got my attention was the animation "Amhrán na Mara (Song of the Sea)", and its theme song "Amhrán Na Farraige (Song of the Sea)". The movie was wonderful, it made me want to be able to speak Irish for the first time (spoiler: I still can't do it yet).
+                        </div>
+                    </div id="overlay"></div>
+                </div>
                 <div class="cards">card two</div>
                 <div class="cards">card three</div>
                 <div class="cards">card four</div>
@@ -38,13 +50,16 @@
                 <div class="cards">card ten</div>
                 <div class="cards">card eleven</div>
                 <div class="cards">card twelve</div>
+            
             </div>
         </div>
     </div>
 
+
     <div class="links-section">
         <div class="links">Things I find helpful</div>
         <!--This place is reserved for "CARDS", every card is clickable and bring users to that article-->
+            <p class="link"><a href="https://www.rte.ie/news/nuacht/" target="_blank">RTÉ Nuacht</a></p>
     </div>
 
     <div class="notworking-section">
