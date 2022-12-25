@@ -83,8 +83,9 @@ html, body {
     margin: 15px;
 }
 
-.container {
-
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .cards {
@@ -95,7 +96,7 @@ html, body {
     margin-bottom: 20px;
 }
 
-.modal {
+/*.modal {
     position:fixed;
     top: 50%;
     left: 50%;
@@ -137,7 +138,7 @@ html, body {
 
 .modal-body {
     padding: 10px 15px;
-}
+}*/
 
 #overlay {
     position: fixed;
