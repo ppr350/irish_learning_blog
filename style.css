@@ -16,7 +16,7 @@ html, body {
 /*--------------------Title---------------------*/
 
 .title {
-    font-size: 48px;
+    font-size: 70px;
     font-weight: 800;
     color: rgb(255, 255, 255);
     padding: 60px;
@@ -86,14 +86,16 @@ html, body {
 .cards-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+
 }
 
 .cards {
-    font-size: 35px;
+    font-size: 25px;
     background-color: rgb(255, 255, 182);
     margin-right: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
+    padding: 10px;
 }
 
 /*.modal {
@@ -164,22 +166,22 @@ html, body {
 }
 
 .links {
-    font-size: 30px;
-    color: rgb(82, 58, 0)
+    font-size: 20px;
+    color: rgb(47, 47, 47)
     /*background-color: ;*/
 }
 
 a:link {
-    color: black;
+    color: rgb(0, 27, 124);
     text-decoration: none;
 }
 
 a:hover {
-    color: blue;
+    color: rgb(6, 143, 58);
 }
 
 a:visited {
-    color: pink;
+    color: rgb(108, 92, 94);
 }
 
 /*--------------------footer---------------------*/
