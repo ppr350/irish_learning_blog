@@ -23,15 +23,13 @@ html, body {
 
 }
 
-/*--------------------layout--------------------*/
+/*--------------------Layout--------------------*/
 
 .layout {
     display: flex;
     justify-content: flex-start;
 
 }
-
-
 
 /*-------------------Sidebar--------------------*/
 
@@ -50,7 +48,20 @@ html, body {
     margin-bottom: 20px;
 }
 
+/*-------------not working serction--------------*/
+.not-working-section {
+    background-color: orange;
+    margin: 15px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
 
+.not-working-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
 
 /*-------------------about me--------------------*/
 .me-section {
@@ -72,9 +83,8 @@ html, body {
 /*---------------------beef----------------------*/
 .beef-section {
     background-color: rgb(218, 152, 152);
-    margin-top: 40px;
+    margin-top: 20px;
     margin-right: 20px;
-    flex-grow: 2;
 }
 
 .beef {
@@ -98,71 +108,31 @@ html, body {
     padding: 15px;
 }
 
-/*.modal {
-    position:fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    transition: 200ms ease-in-out;
-    border: 1px solid black;
-    border-radius: 20px;
-    z-index: 10;
-    background-color: white;
-    width: 1000px;
-    max-width: 80%;
-}
-
-.modal.active {
-    transform: translate(-50%, -50%) scale(1);
-}
-
-.modal-header {
-    padding: 10px 15px;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid black;
-}
-
-.modal-header .title {
-    font-size: 1.25rem;
+.card-title {
     font-weight: bold;
+    padding-bottom: 5px;
 }
 
-.modal-header .close-button {
-    cursor: pointer;
-    border: none;
-    outline: none;
-    background: none;
-    font-size: 1.25rem;
-    font-weight: bold;
-}
-
-.modal-body {
-    padding: 10px 15px;
-}*/
-
-#overlay {
-    position: fixed;
-    opacity: 0;
-    transition: 200ms ease-in-out;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, .5);
-    pointer-events: none;
-}
-
-#overlay.active {
-    opacity: 1;
-    pointer-events: all;
+.link-container > p,
+.not-working-container > p {
+    font-size: 17px;
+    text-align: center;
 }
 
 /*----------------helpful links------------------*/
-.links-section {
+.link-section {
+    font-size: 20px;
     margin: 15px;
+    border-radius: 17px;
     background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.link-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
 }
 
 .links {
@@ -187,5 +157,5 @@ a:visited {
 /*--------------------footer---------------------*/
 
 .footer {
-    padding: 40px;
+    padding: 5px;
 }
