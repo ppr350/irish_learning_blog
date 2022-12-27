@@ -13,6 +13,11 @@ html, body {
     margin: 15px;
 }
 
+#container {
+    display: flex;
+}
+
+
 /*--------------------Title---------------------*/
 
 .title {
@@ -90,13 +95,13 @@ html, body {
 .beef {
     font-size: 50px;
     font-weight: 800;
+    text-align: center;
     margin: 15px;
 }
 
 .cards-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
 }
 
 .cards {
@@ -158,4 +163,42 @@ a:visited {
 
 .footer {
     padding: 5px;
+}
+
+@media screen and (max-width:600px) {
+    .body {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+    }
+
+    .title {
+        font-size: 45px;
+        padding: 30px;
+    }
+
+    #container {
+        flex-direction: column;
+    }
+
+    .beef-section {
+        margin-right: 0px;
+    }
+
+    .beef {
+        font-size: 35px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .cards-container {
+        grid-template-columns: 1fr;
+    }
+
+    .cards {
+        padding: 10px;
+        margin: 10px;
+        font-size: 20px;
+    }
 }
