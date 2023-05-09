@@ -109,7 +109,7 @@ html, body {
     grid-template-columns: 1fr 1fr;
 }
 
-.cards {
+.card {
     font-size: 25px;
     background-color: rgb(255, 255, 182);
     margin-right: 20px;
@@ -201,7 +201,7 @@ a:visited {
         grid-template-columns: 1fr;
     }
 
-    .cards {
+    .card {
         padding: 10px;
         margin: 10px;
         font-size: 20px;
